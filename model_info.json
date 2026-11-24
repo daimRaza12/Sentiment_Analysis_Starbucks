@@ -1,0 +1,145 @@
+{
+  "model_name": "Logistic Regression (tuned)",
+  "n_reviews": 670,
+  "n_train": 536,
+  "n_test": 134,
+  "label_counts": {
+    "Negative": 548,
+    "Positive": 122
+  },
+  "final_metrics": {
+    "Accuracy": 0.9253731343283582,
+    "Precision (Pos)": 0.8181818181818182,
+    "Recall (Pos)": 0.75,
+    "F1 (Pos)": 0.782608695652174,
+    "Macro F1": 0.8687818253035644,
+    "Balanced Acc": 0.8568181818181818
+  },
+  "confusion_matrix": [
+    [
+      106,
+      4
+    ],
+    [
+      6,
+      18
+    ]
+  ],
+  "comparison": [
+    {
+      "Model": "Baseline (always majority)",
+      "Accuracy": 0.821,
+      "Precision (Pos)": 0.0,
+      "Recall (Pos)": 0.0,
+      "F1 (Pos)": 0.0,
+      "Macro F1": 0.451,
+      "Balanced Acc": 0.5
+    },
+    {
+      "Model": "Naive Bayes (Multinomial)",
+      "Accuracy": 0.836,
+      "Precision (Pos)": 1.0,
+      "Recall (Pos)": 0.083,
+      "F1 (Pos)": 0.154,
+      "Macro F1": 0.531,
+      "Balanced Acc": 0.542
+    },
+    {
+      "Model": "Naive Bayes (Complement)",
+      "Accuracy": 0.91,
+      "Precision (Pos)": 0.929,
+      "Recall (Pos)": 0.542,
+      "F1 (Pos)": 0.684,
+      "Macro F1": 0.816,
+      "Balanced Acc": 0.766
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.925,
+      "Precision (Pos)": 0.889,
+      "Recall (Pos)": 0.667,
+      "F1 (Pos)": 0.762,
+      "Macro F1": 0.859,
+      "Balanced Acc": 0.824
+    },
+    {
+      "Model": "Linear SVM",
+      "Accuracy": 0.94,
+      "Precision (Pos)": 1.0,
+      "Recall (Pos)": 0.667,
+      "F1 (Pos)": 0.8,
+      "Macro F1": 0.882,
+      "Balanced Acc": 0.833
+    },
+    {
+      "Model": "Logistic Regression (tuned)",
+      "Accuracy": 0.925,
+      "Precision (Pos)": 0.818,
+      "Recall (Pos)": 0.75,
+      "F1 (Pos)": 0.783,
+      "Macro F1": 0.869,
+      "Balanced Acc": 0.857
+    },
+    {
+      "Model": "Linear SVM (tuned)",
+      "Accuracy": 0.925,
+      "Precision (Pos)": 0.818,
+      "Recall (Pos)": 0.75,
+      "F1 (Pos)": 0.783,
+      "Macro F1": 0.869,
+      "Balanced Acc": 0.857
+    },
+    {
+      "Model": "Naive Bayes (Complement, tuned)",
+      "Accuracy": 0.955,
+      "Precision (Pos)": 0.909,
+      "Recall (Pos)": 0.833,
+      "F1 (Pos)": 0.87,
+      "Macro F1": 0.921,
+      "Balanced Acc": 0.908
+    },
+    {
+      "Model": "VADER (no training)",
+      "Accuracy": 0.649,
+      "Precision (Pos)": 0.328,
+      "Recall (Pos)": 0.917,
+      "F1 (Pos)": 0.484,
+      "Macro F1": 0.609,
+      "Balanced Acc": 0.754
+    }
+  ],
+  "top_positive": {
+    "good": 1.3240645399998299,
+    "great": 1.2742901353435987,
+    "always": 1.120338750379114,
+    "food": 0.8077680420563987,
+    "friendly": 0.7746427371888263,
+    "selection": 0.6630221938669294,
+    "nice": 0.6515296614556788,
+    "enjoy": 0.5480672476604032,
+    "love": 0.525572705244873,
+    "wish": 0.5254624733633345,
+    "service": 0.5184837955884193,
+    "usually": 0.49770166228160484,
+    "helpful": 0.4889712526502573,
+    "variety": 0.46749819392946834,
+    "staff": 0.44373490714395947
+  },
+  "top_negative": {
+    "say": 0.622343598071384,
+    "tell": 0.5764763147039931,
+    "call": 0.4933358424455661,
+    "ask": 0.42730351721433796,
+    "rude": 0.37308213178891086,
+    "pay": 0.34684566730958766,
+    "today": 0.3460690410487619,
+    "see": 0.3354661349426357,
+    "happen": 0.33290239014966266,
+    "two": 0.3314093601631695,
+    "week": 0.3110864013893103,
+    "company": 0.31023559692455116,
+    "money": 0.30403953121870414,
+    "change": 0.3026974238637439,
+    "less": 0.2984095216101873
+  }
+}
