@@ -42,4 +42,4 @@ If you want a **free public URL** to share your Sentiment Analyzer web app with 
    - Choose your repository, branch (usually `main` or `master`), and set the main file path to `app.py`.
    - Click **"Deploy!"**.
 4. **Your Live URL**:
-   Streamlit will build the container and provide you with a permanent public URL (e.g., `https://<your-app-name>.streamlit.app`).
+  (https://sentimentanalysisstarbucks-cwepy4kbypqre5hzp7uxm5.streamlit.app/)
